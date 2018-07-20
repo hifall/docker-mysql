@@ -19,6 +19,4 @@ RUN chmod 755 /sbin/entrypoint.sh
 
 EXPOSE 3306/tcp
 
-ENTRYPOINT ["/sbin/entrypoint.sh"]
-
-CMD ["/usr/bin/mysqld_safe"]
+CMD ["bash"]

@@ -87,6 +87,7 @@ initialize_mysql_database() {
     done
     echo
 
+    echo "database system is ready to accept connections"
     ## create a localhost only, debian-sys-maint user
     ## the debian-sys-maint is used while creating users and database
     ## as well as to shut down or starting up the mysql server via mysqladmin
